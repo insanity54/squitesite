@@ -192,23 +192,23 @@ main {
       list-style-type: none; }
     main .links .search input {
       padding: 0.1em 0.4em; }
-  main .demo {
+  main .comments {
     display: block;
     float: left;
     margin-right: 10.1484%;
     width: 63.28387%; }
-    main .demo:last-child {
+    main .comments:last-child {
       margin-right: 0; }
-    main .demo h2 {
+    main .comments h2 {
       margin-bottom: 1em; }
-    main .demo h4 {
+    main .comments h4 {
       margin-bottom: 0.5em; }
-    main .demo blockquote {
+    main .comments blockquote {
       margin-top: 10px;
       margin-bottom: 10px;
       padding-left: 15px;
       border-left: 3px solid #ccc; }
-    main .demo pre {
+    main .comments pre {
       background: #eee;
       border: 1px solid #ddd;
       padding: 10px 15px;
