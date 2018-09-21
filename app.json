@@ -1,0 +1,9 @@
+{
+  "name": "Squid Site",
+  "description": "[KG] Clan's Website",
+  "website": "https://kgclan.club/",
+  "repository": "https://github.com/insanity54/squitesite",
+  "buildpacks": [
+    "url": "https://github.com/heroku/heroku-buildpack-php"
+  ]
+}
