@@ -894,6 +894,19 @@ nav#menu #menu-nav li a:hover {
    Contact Section
 ================================================== */
 
+
+.textarea {
+		-moz-appearance: textarea;
+    -webkit-appearance: textarea;
+		border-style: inset;
+    border: none;
+		border-color: Transparent;
+		outline: 0px solid transparent;
+    overflow: auto;
+		min-height: 300px;
+}
+
+
 .contact-details h3 {
 	color: #FFFFFF;
     font-size: 24px;
@@ -924,7 +937,8 @@ nav#menu #menu-nav li a:hover {
 }
 
 #contact-form input,
-#contact-form textarea {
+#contact-form textarea,
+.textarea {
     border: none;
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
@@ -951,25 +965,25 @@ nav#menu #menu-nav li a:hover {
 	box-sizing: border-box;
 }
 
-#contact-form textarea {
+#contact-form textarea, .textarea {
     width: 100%;
-	resize: vertical;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
 
-#contact-form .submit {
-    background: #3C3F45;
-    color: #23262C;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 16px 40px;
-    text-align: center;
-    vertical-align: middle;
-    width: auto;
+#contact-form .submit, .post-action > input:nth-child(1) {
+  border: 0px;
+  background: #3C3F45;
+  color: #23262C;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 16px 40px;
+  text-align: center;
+  vertical-align: middle;
+  width: auto;
 	margin-top: 30px;
 
 	-webkit-transition: background 0.1s linear 0s, color 0.1s linear 0s;
@@ -978,7 +992,8 @@ nav#menu #menu-nav li a:hover {
 		    transition: background 0.1s linear 0s, color 0.1s linear 0s;
 }
 
-#contact-form .submit:hover {
+#contact-form .submit:hover, .post-action > input:nth-child(1):hover {
+	border: 0px;
     background: #DE5E60;
     color: #FFFFFF;
 }
