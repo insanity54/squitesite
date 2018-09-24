@@ -1415,3 +1415,8 @@ p.input-wrapper {
 .isso-thread {
 	margin: 0;
 }
+
+.avatar {
+	height: 3em;
+	width: 3em;
+}
