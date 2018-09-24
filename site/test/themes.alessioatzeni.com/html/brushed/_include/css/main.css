@@ -938,6 +938,7 @@ nav#menu #menu-nav li a:hover {
 
 #contact-form input,
 #contact-form textarea,
+.auth-section input,
 .textarea {
     border: none;
 	-webkit-border-radius: 0;
@@ -958,7 +959,9 @@ nav#menu #menu-nav li a:hover {
     resize: none;
 }
 
-#contact-form input {
+
+#contact-form input,
+.auth-section input {
     width: 100%;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -1402,4 +1405,13 @@ footer .credits {
       background-repeat: no-repeat;
       background-size: cover;
       height: 100%;
+}
+
+p.input-wrapper {
+	margin: 0;
+	margin-top: 1px;
+}
+
+.isso-thread {
+	margin: 0;
 }

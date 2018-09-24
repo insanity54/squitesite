@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-nginx site/public/
+web: vendor/bin/heroku-php-nginx site/test/themes.alessioatzeni.com/html/brushed
