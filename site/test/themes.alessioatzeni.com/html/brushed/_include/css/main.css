@@ -1522,7 +1522,6 @@ p.input-wrapper {
 }
 .isso-feedlink:hover,
 .isso-comment > div.text-wrapper > .isso-comment-footer a:hover {
-    color: #111111 !important;
     text-shadow: #aaaaaa 0 0 1px !important;
 }
 .isso-comment > div.text-wrapper > .isso-comment-footer > a {
