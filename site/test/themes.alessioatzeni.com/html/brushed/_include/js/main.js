@@ -55,8 +55,6 @@ jQuery(function($){
 	================================================== */
 
 	BRUSHED.nav = function(){
-		console.log('hellonav')
-
 		var sticky = new Waypoint.Sticky({
 			element: $('.sticky-nav')
 		})
@@ -411,9 +409,9 @@ jQuery(function($){
 		BRUSHED.videoBg();
 		BRUSHED.nav();
 		BRUSHED.music();
-		//BRUSHED.mobileNav();
-		//BRUSHED.listenerMenu();
-		//BRUSHED.menu();
+		BRUSHED.mobileNav();
+		BRUSHED.listenerMenu();
+		BRUSHED.menu();
 		//BRUSHED.goSection();
 		//BRUSHED.goUp();
 		//BRUSHED.filter();
