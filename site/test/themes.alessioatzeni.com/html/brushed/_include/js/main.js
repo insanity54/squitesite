@@ -69,7 +69,7 @@ jQuery(function($){
 				autoplay: true,
 				theme: '#DE5E60',
 				mini: false,
-				volume: 0.5,
+				volume: 0.3,
 		    audio: [{
 	        name: 'Nightcore Rasputin [BASS BOOSTED] (REMIX)',
 	        artist: 'Modov Plays',
