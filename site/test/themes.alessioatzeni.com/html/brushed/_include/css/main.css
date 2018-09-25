@@ -1483,7 +1483,6 @@ p.input-wrapper {
 }
 .isso-comment > div.text-wrapper > .isso-comment-header .author {
     font-weight: bold;
-    color: #555;
 }
 .isso-comment > div.text-wrapper > .textarea-wrapper .textarea,
 .isso-comment > div.text-wrapper > .textarea-wrapper .preview {
