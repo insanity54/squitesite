@@ -60,11 +60,22 @@ jQuery(function($){
 		var sticky = new Waypoint.Sticky({
 			element: $('.sticky-nav')
 		})
+	}
 
 
-
-
-
+	BRUSHED.music = function() {
+			const ap = new APlayer({
+		    container: document.getElementById('aplayer'),
+				autoplay: true,
+				theme: '#DE5E60',
+				mini:true,
+		    audio: [{
+	        name: 'Nightcore Rasputin [BASS BOOSTED] (REMIX)',
+	        artist: 'Modov Plays',
+	        url: '_include/audio/rasputin.mp3',
+	        cover: '_include/img/rasputin.jpg'
+		    }]
+			});
 	}
 
 
@@ -398,6 +409,7 @@ jQuery(function($){
 
 		BRUSHED.videoBg();
 		BRUSHED.nav();
+		BRUSHED.music();
 		//BRUSHED.mobileNav();
 		//BRUSHED.listenerMenu();
 		//BRUSHED.menu();
